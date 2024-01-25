@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de iframe</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        iframe#tela {
+            width: 95vh;
+            height: 400px;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Faça uma escolha</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur maxime quos maiores, natus, non commodi porro ullam ipsam iure sequi sapiente quibusdam in, perspiciatis quia dicta! Alias quis ut dolores. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum, porro fuga quo a dicta velit ducimus exercitationem neque harum, necessitatibus nihil labore impedit, cum magnam sint facere cumque deserunt voluptatum?</p>
+
+    <ul>
+        <li><a href="paginas-extras/pg001.html" target="frame">Primeira página</a></li>
+        <li><a href="paginas-extras/pg002.html" target="frame">Segunda página</a></li>
+        <li><a href="paginas-extras/pg003.html" target="frame">Terceira página</a></li>
+    </ul>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, debitis animi? Voluptatem, tempora blanditiis quaerat porro dignissimos libero, qui quibusdam quis eaque fuga aspernatur omnis itaque praesentium doloribus, nesciunt tenetur?</p>
+
+    <iframe id="tela" name="frame" srcdoc="<h1>Escolha uma das opções acima </h1> 
+        
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, debitis animi? Voluptatem, tempora blanditiis quaerat porro dignissimos libero, qui quibusdam quis eaque fuga aspernatur omnis itaque praesentium doloribus, nesciunt tenetur?</p>
+        
+        <img src='imagens/cropped-cursoemvideo-logo.png'>">
+        <p>Infelizmente seu navegador não é compatível com isso</p>
+    </iframe>
+
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem corrupti eum illum nihil maxime excepturi illo, optio voluptate labore architecto deserunt officia fuga quasi ipsa nam eius ad hic magni? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias culpa temporibus aut magnam! Magni delectus ab necessitatibus, cum labore suscipit praesentium laborum exercitationem ipsum iste earum deserunt aperiam ratione laboriosam!</p>
+</body>
+</html>
